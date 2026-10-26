@@ -1,0 +1,9 @@
+project: savantenvs/lief
+target: pme_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/pme_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/pme_fuzzer
+    libfuzzer: true
+    timeout: 30

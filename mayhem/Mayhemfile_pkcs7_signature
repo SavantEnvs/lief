@@ -1,0 +1,9 @@
+project: savantenvs/lief
+target: pkcs7_signature
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/pkcs7_signature/testsuite
+cmds:
+  - cmd: /mayhem/pkcs7_signature
+    libfuzzer: true
+    timeout: 30

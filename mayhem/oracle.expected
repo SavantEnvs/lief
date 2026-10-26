@@ -1,0 +1,146 @@
+elf: type=3 machine=62 entry=0x250 sections=13 segments=6
+elf: segment type=1 flags=5 filesz=0x3c8 memsz=0x3c8 va=0x0
+elf: segment type=1 flags=6 filesz=0xb0 memsz=0xb0 va=0x200f50
+elf: segment type=2 flags=6 filesz=0xb0 memsz=0xb0 va=0x200f50
+elf: segment type=1685382480 flags=4 filesz=0x24 memsz=0x24 va=0x328
+elf: segment type=1685382481 flags=6 filesz=0x0 memsz=0x0 va=0x0
+elf: segment type=1685382482 flags=4 filesz=0xb0 memsz=0xb0 va=0x200f50
+elf: dynsym  value=0x0 size=0
+elf: dynsym __bss_start value=0x201000 size=0
+elf: dynsym main value=0x250 size=59
+elf: dynsym _edata value=0x201000 size=0
+elf: dynsym _end value=0x201000 size=0
+elf: dynamic_entries=6
+elf: roundtrip entry=0x250 sections=13 segments=6 dynsyms=5
+elf-x86_64: format=1 arch=5 bits64=1 entry=0x250 pie=0
+elf-x86_64: section  va=0x0 size=0x0
+elf-x86_64: section .hash va=0x190 size=0x28
+elf-x86_64: section .dynsym va=0x1b8 size=0x78
+elf-x86_64: section .dynstr va=0x230 size=0x1e
+elf-x86_64: section .text va=0x250 size=0xb6
+elf-x86_64: section .rodata va=0x310 size=0x16
+elf-x86_64: section .eh_frame_hdr va=0x328 size=0x24
+elf-x86_64: section .eh_frame va=0x350 size=0x78
+elf-x86_64: section .dynamic va=0x200f50 size=0xb0
+elf-x86_64: section .comment va=0x0 size=0x2d
+elf-x86_64: section .shstrtab va=0x0 size=0x69
+elf-x86_64: section .symtab va=0x0 size=0x210
+elf-x86_64: section .strtab va=0x0 size=0x74
+elf-x86_64: symbol main value=0x250
+elf-x86_64: symbol main value=0x250
+elf-x86_64: symbols=27
+elf-aarch64: format=1 arch=2 bits64=1 entry=0x401000 pie=0
+elf-aarch64: section  va=0x0 size=0x0
+elf-aarch64: section .text va=0x401000 size=0x68c
+elf-aarch64: section .rodata va=0x40168c size=0x65
+elf-aarch64: section .data va=0x4016f1 size=0x2
+elf-aarch64: section .got va=0x4016f8 size=0x8
+elf-aarch64: section .got.plt va=0x401700 size=0x18
+elf-aarch64: section .comment va=0x0 size=0xb5
+elf-aarch64: section .shstrtab va=0x0 size=0x36
+elf-aarch64: symbols=0
+elf-obj: format=1 arch=5 bits64=1 entry=0x0 pie=0
+elf-obj: section  va=0x0 size=0x0
+elf-obj: section .strtab va=0x0 size=0xbd
+elf-obj: section .text va=0x0 size=0x39
+elf-obj: section .rela.text va=0x0 size=0x48
+elf-obj: section .data va=0x0 size=0x4
+elf-obj: section .rodata.cst16 va=0x0 size=0x10
+elf-obj: section .debug_loc va=0x0 size=0x38
+elf-obj: section .debug_abbrev va=0x0 size=0xca
+elf-obj: section .debug_info va=0x0 size=0x107
+elf-obj: section .rela.debug_info va=0x0 size=0x240
+elf-obj: section .debug_str va=0x0 size=0x5f
+elf-obj: section .comment va=0x0 size=0x24
+elf-obj: section .note.GNU-stack va=0x0 size=0x0
+elf-obj: section .eh_frame va=0x0 size=0x40
+elf-obj: section .rela.eh_frame va=0x0 size=0x30
+elf-obj: section .debug_line va=0x0 size=0x5c
+elf-obj: section .rela.debug_line va=0x0 size=0x18
+elf-obj: section .llvm_addrsig va=0x0 size=0x0
+elf-obj: section .symtab va=0x0 size=0x120
+elf-obj: symbol add value=0x0
+elf-obj: symbol main value=0x20
+elf-obj: symbol g value=0x0
+elf-obj: symbols=12
+elf-so: format=1 arch=5 bits64=1 entry=0x0 pie=0
+elf-so: section  va=0x0 size=0x0
+elf-so: section .note.gnu.build-id va=0x238 size=0x24
+elf-so: section .gnu.hash va=0x260 size=0x30
+elf-so: section .dynsym va=0x290 size=0xc0
+elf-so: section .dynstr va=0x350 size=0x76
+elf-so: section .gnu.version va=0x3c6 size=0x10
+elf-so: section .gnu.version_r va=0x3d8 size=0x20
+elf-so: section .rela.dyn va=0x3f8 size=0xc0
+elf-so: section .init va=0x1000 size=0x17
+elf-so: section .plt va=0x1020 size=0x10
+elf-so: section .plt.got va=0x1030 size=0x8
+elf-so: section .text va=0x1040 size=0xfc
+elf-so: section .fini va=0x113c size=0x9
+elf-so: section .rodata va=0x2000 size=0x10
+elf-so: section .eh_frame_hdr va=0x2010 size=0x2c
+elf-so: section .eh_frame va=0x2040 size=0x84
+elf-so: section .init_array va=0x3e20 size=0x8
+elf-so: section .fini_array va=0x3e28 size=0x8
+elf-so: section .dynamic va=0x3e30 size=0x190
+elf-so: section .got va=0x3fc0 size=0x28
+elf-so: section .got.plt va=0x3fe8 size=0x18
+elf-so: section .data va=0x4000 size=0xc
+elf-so: section .bss va=0x400c size=0x4
+elf-so: section .comment va=0x0 size=0x42
+elf-so: section .symtab va=0x0 size=0x2a0
+elf-so: section .strtab va=0x0 size=0x16d
+elf-so: section .shstrtab va=0x0 size=0xe7
+elf-so: symbol add value=0x1100
+elf-so: symbol g value=0x4008
+elf-so: symbol main value=0x1120
+elf-so: symbol add value=0x1100
+elf-so: symbol g value=0x4008
+elf-so: symbol main value=0x1120
+elf-so: symbols=36
+macho-exe: format=3 arch=5 bits64=1 entry=0x100000420 pie=1
+macho-exe: section __text va=0x100000400 size=0x3e
+macho-exe: section __const va=0x100000440 size=0x10
+macho-exe: section __unwind_info va=0x100000450 size=0x1038
+macho-exe: section __eh_frame va=0x100001488 size=0x18
+macho-exe: section __data va=0x100002000 size=0x4
+macho-exe: symbol _main value=0x100000420
+macho-exe: symbol _add value=0x100000400
+macho-exe: symbol _g value=0x100002000
+macho-exe: symbols=5
+macho-arm64: format=3 arch=2 bits64=1 entry=0x1000003f4 pie=1
+macho-arm64: section __text va=0x1000003d8 size=0x40
+macho-arm64: section __const va=0x100000418 size=0x10
+macho-arm64: section __unwind_info va=0x100000428 size=0x1038
+macho-arm64: section __data va=0x100004000 size=0x4
+macho-arm64: symbol _main value=0x1000003f4
+macho-arm64: symbol _add value=0x1000003d8
+macho-arm64: symbol _g value=0x100004000
+macho-arm64: symbols=5
+macho-dylib: format=3 arch=5 bits64=1 entry=0x0 pie=0
+macho-dylib: section __text va=0x3d0 size=0x3e
+macho-dylib: section __const va=0x410 size=0x10
+macho-dylib: section __unwind_info va=0x420 size=0x1038
+macho-dylib: section __eh_frame va=0x1458 size=0x18
+macho-dylib: section __data va=0x2000 size=0x4
+macho-dylib: symbol _add value=0x3d0
+macho-dylib: symbol _main value=0x3f0
+macho-dylib: symbol _g value=0x2000
+macho-dylib: symbols=4
+pe-exe: format=2 arch=5 bits64=1 entry=0x140001010 pie=1
+pe-exe: section .text va=0x1000 size=0x200
+pe-exe: section .data va=0x2000 size=0x200
+pe-exe: symbols=0
+pe-x86: format=2 arch=4 bits64=0 entry=0x401010 pie=1
+pe-x86: section .text va=0x1000 size=0x200
+pe-x86: section .data va=0x2000 size=0x200
+pe-x86: section .reloc va=0x3000 size=0x200
+pe-x86: symbols=0
+pe-dll: format=2 arch=5 bits64=1 entry=0x180000000 pie=1
+pe-dll: section .text va=0x1000 size=0x200
+pe-dll: section .rdata va=0x2000 size=0x200
+pe-dll: section .data va=0x3000 size=0x200
+pe-dll: symbol add value=0x1000
+pe-dll: symbols=1
+pkcs7 authenticode_sha256.der: version=1 digest=3 certs=1 signers=1
+pkcs7 cert subject=CN=mayhem seed
